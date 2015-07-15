@@ -1,0 +1,2 @@
+1) Print array
+    Arrays.toString(arr);
