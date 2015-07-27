@@ -3,15 +3,15 @@ package Utilities;
 /**
  * Created by myho on 7/6/15.
  */
-public class LinkedListNode {
+public class ListNode {
     public int val;
-    public LinkedListNode next;
+    public ListNode next;
 
-    public LinkedListNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 
-    public LinkedListNode() {
+    public ListNode() {
     }
 
     @Override

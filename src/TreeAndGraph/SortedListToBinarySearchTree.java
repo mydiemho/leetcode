@@ -1,6 +1,6 @@
 package TreeAndGraph;
 
-import Utilities.LinkedListNode;
+import Utilities.ListNode;
 import Utilities.TreeNode;
 
 /**
@@ -11,19 +11,19 @@ public class SortedListToBinarySearchTree {
     /*
     https://leetcode.com/discuss/32902/my-simple-java-solution
      */
-    public TreeNode sortedListToBST(LinkedListNode head) {
+    public TreeNode sortedListToBST(ListNode head) {
 
         if (head == null) {
             return null;
         }
 
         // find middle element to use as root
-        LinkedListNode rootNode = head;
+        ListNode rootNode = head;
 
-        LinkedListNode fast = head;
+        ListNode fast = head;
 
         // this point to the node before the middle element
-        LinkedListNode leftEnd = null;
+        ListNode leftEnd = null;
 
         // Even length: mid = (len /2)  - 1
         // Odd length: mid = floor(len/2)

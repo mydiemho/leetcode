@@ -46,7 +46,6 @@ public class TwoSum {
     {
         int[] array = new int[]{3, 2, 4};
         int sum = 6;
-//        findPairMap(array, sum);
         twoSum(array, sum);
     }
 }
