@@ -6,6 +6,8 @@ import java.util.Map;
 
 /**
  * Created by myho on 7/26/15.
+ *
+ * https://leetcode.com/problems/lru-cache/
  */
 public class LRUCache {
 
